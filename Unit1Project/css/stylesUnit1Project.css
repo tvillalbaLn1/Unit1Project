@@ -1,0 +1,128 @@
+/* 
+Author:  Tromen Agustin Villalba
+Date: 09-19-2024
+File Name: stylesUnit1Project.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2, h3{
+	margin: 0;
+	padding:0;
+	border:0;
+}
+
+/* Style rules for body and images */
+body{
+	background-color: #d9d9d9;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+
+/*Style rules for navigation area*/
+nav{
+	background-color: #000000;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	font-size: 2em;
+	font-family: Cambria, Verdana, sans-serif;
+	font-weight: bold;	
+}
+nav li a{
+	display: block;
+	color: #d9d9d9;
+	padding: 0.25em 1em;
+	text-decoration: none;
+}
+
+/*Style rules for main content*/
+main{
+	padding: 0.5%;
+	font-family: Georgia, Arial, serif;
+}
+main p{
+	text-align: center;
+}
+main p1{
+	font-size: 1.5em;
+	width: 40%;
+	float:left;
+	text-align: left;
+	padding: 1.5%;
+}
+main p2{
+	font-size: 1.5em;
+	width: 40%;
+	float:right;
+	text-align: right;
+	padding: 1.5%;
+}
+main p3{
+	font-size: 1.5em;
+	text-align: right;
+	padding: 1.5%;
+}
+main h1{
+	clear: both;
+	text-align: center;
+	padding: 1.5%;
+}
+main h2{
+	text-align: center;
+	font-weight: bold;
+	padding: 1.5%;
+}
+main ul{
+	list-style-type: square;
+}
+main li{
+	text-align: left;
+}
+main img{
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5%;
+	clear: both;
+}
+
+.link{
+	color: #00bfff;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.action{
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#contact{
+	text-align: center;
+}
+
+/*Style rules for footer content*/
+footer{
+	text-align: center;
+	font-size: 1em;
+	background-color: #0d0d0d;
+	color: #33ffff;
+	padding: 0.5% 0%;
+	clear: both;
+}
+
+footer a{
+	color: #80ffff;
+	text-decoration: none;
+	clear: both;
+}
